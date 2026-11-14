@@ -1,12 +1,16 @@
-# React + Vite
+# InstaScan demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React and Vite frontend prototype. The repository currently uses the default Vite page title, so this README describes the checkout as a frontend demo rather than claiming a complete product workflow.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Requirements: Node.js and npm.
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open the local address shown by Vite. To build the static site, run `npm run build`; use `npm run preview` to preview that output.
+
+The current interface and supported behavior are defined in `src/`. This repository does not document a backend or production deployment.
